@@ -1,0 +1,22 @@
+#content .image-text{
+    border: 2px solid #c5c0c0;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+#content .image-text .image{
+    background-color: rgb(100, 97, 97);
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+}
+
+#content .image-text .image p{
+    color: rgb(168, 164, 164);
+    margin-top: 0px;
+}
+
+#content .image-text .text p{
+    font-size: 23px;
+    padding: 5px 20px;    
+}

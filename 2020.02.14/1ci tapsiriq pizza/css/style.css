@@ -1,0 +1,69 @@
+#pizza{
+    font-family: 'Nunito', sans-serif;
+}
+
+#pizza .image-text{
+    position: relative;
+    height: 820px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#pizza .image-text .image{
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#pizza .image-text .image img{
+    width: 100%;
+}
+
+#pizza .image-text .icon{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+
+#pizza .image-text .icon a{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 4px solid white;
+    border-radius: 50%;    
+}
+
+#pizza .image-text .icon a i{
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 34%;
+}
+
+#pizza .image-text .text{
+    position: absolute;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ff4274;
+    color: white;
+    padding: 20px 30px;
+}
+
+#pizza .image-text .text h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#pizza .image-text .text p.date{
+    font-weight: 300;
+    font-size: 22px;
+}
+
+#pizza .image-text .text p.textP{
+    font-weight: 400;
+    font-size: 24px;
+} 
