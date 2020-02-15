@@ -1,0 +1,80 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#creative-team{}
+
+#creative-team .title-text{
+    margin-left: 40px;
+    margin-bottom: 70px;
+}
+
+#creative-team .title-text p.title{
+    color: #c77d58;
+    position: relative;
+}
+#creative-team .title-text p.title::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    background-color: #c77d58;
+    top: 21%;
+    left: -4%;
+}
+
+#creative-team .title-text p.title::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 145px;
+    background-color: #c77d58;
+    top: 20%;
+    left: -2.66%;
+}
+
+#creative-team .title-text h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin: -8px 0;
+}
+
+#creative-team .title-text h1 span{
+    color: #c77d58;
+    font-weight: 600;
+}
+
+#creative-team .title-text p{
+    color: #b8b0b5;
+}
+
+#creative-team .image-text{}
+
+#creative-team .image-text .image{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-right: 30px;
+}
+
+#creative-team .image-text .bg-1{
+    background-image: url('../img/portret1.jpg');
+}
+
+#creative-team .image-text .bg-2{
+    background-image: url('../img/portret2.jpg');
+}
+#creative-team .image-text .bg-3{
+    background-image: url('../img/portret3.jpg');
+}
+
+#creative-team .image-text .image img{
+    width: 100%;
+}
+
+#creative-team .image-text .text-content{}
+
+#creative-team .image-text .text-content h3{}
+
+#creative-team .image-text .text-content p{}
